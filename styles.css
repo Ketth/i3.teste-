@@ -1148,6 +1148,14 @@ footer {
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+.blog-post h3 {
+  text-align: center;
+  font-size: 15px;
+
+
+}
+}
 /*QUEM SOMO*/
 
 .main {
@@ -1209,3 +1217,35 @@ footer {
   margin-bottom: 20px;
 }
 
+
+@media (max-width: 768px) {
+.paragraph {
+  text-align: left; 
+  font-size: 12px;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+
+.main {
+  margin-left: 5px; 
+  margin-right: 80px;
+  }
+
+
+  .main-title {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .section-heading {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5px; 
+    margin-right: 300px;
+}
+
+.special-text {
+  margin-left: 5px; 
+  margin-right: 0px; 
+}
+}
